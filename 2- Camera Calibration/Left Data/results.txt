@@ -1,0 +1,32 @@
+Aspect ratio optimized (est_aspect_ratio = 1) -> both components of fc are estimated (DEFAULT).
+Principal point optimized (center_optim=1) - (DEFAULT). To reject principal point, set center_optim=0
+Skew not optimized (est_alpha=0) - (DEFAULT)
+Distortion not fully estimated (defined by the variable est_dist):
+     Sixth order distortion not estimated (est_dist(5)=0) - (DEFAULT) .
+Initialization of the principal point at the center of the image.
+Initialization of the intrinsic parameters using the vanishing points of planar patterns.
+
+Initialization of the intrinsic parameters - Number of images: 25
+
+
+Calibration parameters after initialization:
+
+Focal Length:          fc = [ 1897.33966   1897.33966 ]
+Principal point:       cc = [ 811.50000   611.50000 ]
+Skew:             alpha_c = [ 0.00000 ]   => angle of pixel = 90.00000 degrees
+Distortion:            kc = [ 0.00000   0.00000   0.00000   0.00000   0.00000 ]
+
+Main calibration optimization procedure - Number of images: 25
+Gradient descent iterations: 1...2...3...4...5...6...7...8...9...10...11...12...13...14...15...16...17...18...19...20...21...22...23...24...25...26...27...28...29...30...done
+Estimation of uncertainties...done
+
+
+Calibration results after optimization (with uncertainties):
+
+Focal Length:          fc = [ 1924.80977   1946.51819 ] +/- [ 49.60186   51.84801 ]
+Principal point:       cc = [ 815.16525   802.14941 ] +/- [ 26.33819   29.48587 ]
+Skew:             alpha_c = [ 0.00000 ] +/- [ 0.00000  ]   => angle of pixel axes = 90.00000 +/- 0.00000 degrees
+Distortion:            kc = [ -0.06215   0.14971   0.02252   -0.00495  0.00000 ] +/- [ 0.02656   0.12559   0.00404   0.00287  0.00000 ]
+Pixel error:          err = [ 0.39196   0.33675 ]
+
+Note: The numerical errors are approximately three times the standard deviations (for reference).
